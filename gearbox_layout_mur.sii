@@ -1,0 +1,305 @@
+SiiNunit
+{
+direct_gearbox_config : _nameless.383.FFFF {
+ name: "Murcielago90 24 @@speeds@@"	
+ selector_mode: range_split
+ clutch_mode: analog
+ gears: 29
+ gears[0]: _nameless.1477.0001
+ gears[1]: _nameless.1477.0002
+ gears[2]: _nameless.1477.0003
+ gears[3]: _nameless.1477.0004
+ gears[4]: _nameless.1477.0005
+ gears[5]: _nameless.1477.0006
+ gears[6]: _nameless.1477.0007
+ gears[7]: _nameless.1477.0008
+ gears[8]: _nameless.1477.0009
+ gears[9]: _nameless.1477.000A
+ gears[10]: _nameless.1477.000B
+ gears[11]: _nameless.1477.000C
+ gears[12]: _nameless.1477.000D
+ gears[13]: _nameless.1477.000E
+ gears[14]: _nameless.1477.000F
+ gears[15]: _nameless.1477.0010
+ gears[16]: _nameless.1477.0011
+ gears[17]: _nameless.1477.0012
+ gears[18]: _nameless.1477.0013
+ gears[19]: _nameless.1477.0014
+ gears[20]: _nameless.1477.0015
+ gears[21]: _nameless.1477.0016
+ gears[22]: _nameless.1477.0017
+ gears[23]: _nameless.1477.0018
+ gears[24]: _nameless.1477.0019
+ gears[25]: _nameless.1477.001A
+ gears[26]: _nameless.1477.001B
+ gears[27]: _nameless.1477.001C
+ gears[28]: _nameless.1477.001D
+
+}
+
+# selector_1 -> range basse/alte ; selector_2 -> dispari/pari
+
+#folle
+direct_gearbox_gear : _nameless.1477.0001 {
+ gear_impulse_index: 0
+ selector_1: -1
+ selector_2: -1
+ gear: 0
+ name: N
+}
+
+#retromarcia_prima
+direct_gearbox_gear : _nameless.1477.0002 {
+ gear_impulse_index: 1
+ selector_1: 0
+ selector_2: 0
+ gear: -1
+ name: R1L
+}
+
+#retromarcia_seconda
+direct_gearbox_gear : _nameless.1477.001B {
+ gear_impulse_index: 1
+ selector_1: 0
+ selector_2: 1
+ gear: -2
+ name: R1H
+}
+
+#retromarcia_terza
+direct_gearbox_gear : _nameless.1477.001C {
+ gear_impulse_index: 1
+ selector_1: 1
+ selector_2: 0
+ gear: -3
+ name: R2L
+}
+
+#retromarcia_quarta
+direct_gearbox_gear : _nameless.1477.001D {
+ gear_impulse_index: 1
+ selector_1: 1
+ selector_2: 1
+ gear: -4
+ name: R2H
+}
+
+
+#prima
+direct_gearbox_gear : _nameless.1477.0003 {
+ gear_impulse_index: 2
+ selector_1: 0
+ selector_2: 0
+ gear: 1
+ name: CL
+}
+
+#seconda
+direct_gearbox_gear : _nameless.1477.0004 {
+ gear_impulse_index: 2
+ selector_1: 0
+ selector_2: 1
+ gear: 2
+ name: CH
+}
+
+#terza
+direct_gearbox_gear : _nameless.1477.0005 {
+ gear_impulse_index: 3
+ selector_1: 0
+ selector_2: 0
+ gear: 3
+ name: 2L
+}
+
+#quarta
+direct_gearbox_gear : _nameless.1477.0006 {
+ gear_impulse_index: 3
+ selector_1: 0
+ selector_2: 1
+ gear: 4
+ name: 2H
+}
+
+#quinta
+direct_gearbox_gear : _nameless.1477.0007 {
+ gear_impulse_index: 4
+ selector_1: 0
+ selector_2: 0
+ gear: 5
+ name: 3L
+}
+
+#sesta
+direct_gearbox_gear : _nameless.1477.0008 {
+ gear_impulse_index: 4
+ selector_1: 0
+ selector_2: 1
+ gear: 6
+ name: 3H
+}
+
+#settima
+direct_gearbox_gear : _nameless.1477.0009 {
+ gear_impulse_index: 5
+ selector_1: 0
+ selector_2: 0
+ gear: 7
+ name: 4L
+}
+
+#ottava
+direct_gearbox_gear : _nameless.1477.000A {
+ gear_impulse_index: 5
+ selector_1: 0
+ selector_2: 1
+ gear: 8
+ name: 4H
+}
+
+#nona
+direct_gearbox_gear : _nameless.1477.000B {
+ gear_impulse_index: 6
+ selector_1: 0
+ selector_2: 0
+ gear: 9
+ name: 5L
+}
+
+#decima
+direct_gearbox_gear : _nameless.1477.000C {
+ gear_impulse_index: 6
+ selector_1: 0
+ selector_2: 1
+ gear: 10
+ name: 5H
+}
+
+#undicesima
+direct_gearbox_gear : _nameless.1477.000D {
+ gear_impulse_index: 7
+ selector_1: 0
+ selector_2: 0
+ gear: 11
+ name: 6L
+}
+
+#dodicesima
+direct_gearbox_gear : _nameless.1477.000E {
+ gear_impulse_index: 7
+ selector_1: 0
+ selector_2: 1
+ gear: 12
+ name: 6H
+}
+
+#tredicesima
+direct_gearbox_gear : _nameless.1477.000F {
+ gear_impulse_index: 2
+ selector_1: 1
+ selector_2: 0
+ gear: 13
+ name: 7L
+}
+
+#quattordicesima
+direct_gearbox_gear : _nameless.1477.0010 {
+ gear_impulse_index: 2
+ selector_1: 1
+ selector_2: 1
+ gear: 14
+ name: 7H
+}
+
+#quindicesima
+direct_gearbox_gear : _nameless.1477.0011 {
+ gear_impulse_index: 3
+ selector_1: 1
+ selector_2: 0
+ gear: 15
+ name: 8L
+}
+
+#sedicesima
+direct_gearbox_gear : _nameless.1477.0012 {
+ gear_impulse_index: 3
+ selector_1: 1
+ selector_2: 1
+ gear: 16
+ name: 8H
+}
+
+#diciassettesima
+direct_gearbox_gear : _nameless.1477.0013 {
+ gear_impulse_index: 4
+ selector_1: 1
+ selector_2: 0
+ gear: 17
+ name: 9L
+}
+
+#diciottesima
+direct_gearbox_gear : _nameless.1477.0014 {
+ gear_impulse_index: 4
+ selector_1: 1
+ selector_2: 1
+ gear: 18
+ name: 9H
+}
+
+#diciannovesima
+direct_gearbox_gear : _nameless.1477.0015 {
+ gear_impulse_index: 5
+ selector_1: 1
+ selector_2: 0
+ gear: 19
+ name: 10L
+}
+
+#ventesima
+direct_gearbox_gear : _nameless.1477.0016 {
+ gear_impulse_index: 5
+ selector_1: 1
+ selector_2: 1
+ gear: 20
+ name: 10H
+}
+
+#ventunesima
+direct_gearbox_gear : _nameless.1477.0017 {
+ gear_impulse_index: 6
+ selector_1: 1
+ selector_2: 0
+ gear: 21
+ name: 11L
+}
+
+#ventiduesima
+direct_gearbox_gear : _nameless.1477.0018 {
+ gear_impulse_index: 6
+ selector_1: 1
+ selector_2: 1
+ gear: 22
+ name: 11H
+}
+
+#ventitresima
+direct_gearbox_gear : _nameless.1477.0019 {
+ gear_impulse_index: 7
+ selector_1: 1
+ selector_2: 0
+ gear: 23
+ name: 12L
+}
+
+#ventiquattresima
+direct_gearbox_gear : _nameless.1477.001A {
+ gear_impulse_index: 7
+ selector_1: 1
+ selector_2: 1
+ gear: 24
+ name: 12H
+}
+
+
+}
